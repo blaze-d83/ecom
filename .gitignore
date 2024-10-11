@@ -1,0 +1,43 @@
+# Python-related
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+
+# Django-specific
+db.sqlite3
+*.log
+media/
+staticfiles/
+
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+env/
+*.venv
+
+# PyCharm/IDEA project files
+.idea/
+
+# VSCode settings
+.vscode/
+
+# MacOS-specific
+.DS_Store
+
+# Migrations
+*/migrations/*
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+*.coverage.*
+
+# Test and local settings
+test_*.py
+.local/
+
